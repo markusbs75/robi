@@ -21,7 +21,7 @@ def action(msg):
     elif command == '/audio':
         telegram_bot.sendAudio(chat_id, audio=open('/home/pi/test.mp3'))
 
-telegram_bot = telepot.Bot('468382312:AAFhURMxpVlMWEdFzbIQLszBPFEUpAeOLFQ')
+telegram_bot = telepot.Bot('617181157:AAFF9LTrENbRfZ89G2AJb3bq7QMNlM4lAYE')
 print (telegram_bot.getMe())
 
 MessageLoop(telegram_bot, action).run_as_thread()
