@@ -4,6 +4,7 @@ import time
 
 # Pin-Nummern verwenden (nicht GPIO-Nummern!)
 GPIO.setmode(GPIO.BOARD)
+#GPIO.setmode(GPIO.BCM)
 
 # Pin 29 (= GPIO 21) zur Datenausgabe verwenden
 GPIO.setup(29, GPIO.OUT)
